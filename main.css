@@ -82,3 +82,24 @@ footer {
     background-color: #463832;
     color: white;
 }
+
+
+#quiz-btn {
+    display: inline-block;
+    background-color: #463832;
+    color: #FDFBF7;
+    border: 2px solid #463832;
+    padding: 0.6rem 1.2rem;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    box-shadow: 0 4px 10px rgba(70,56,50,0.08);
+}
+
+#quiz-btn:hover,
+#quiz-btn:focus {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(70,56,50,0.12);
+    outline: none;
+}
