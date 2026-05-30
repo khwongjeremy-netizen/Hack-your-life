@@ -1,3 +1,5 @@
+
+
 document.addEventListener('DOMContentLoaded', function() {
     
     // 1. Active Navigation Link
@@ -32,5 +34,10 @@ document.addEventListener('DOMContentLoaded', function() {
     const brand = document.querySelector('.navbar-brand');
     brand.addEventListener('click', function() {
         alert("Thank you for visiting my photography journey!");
+    });
+    const quizButton = document.getElementById('quiz-btn');
+    quizButton.addEventListener('click', function() {
+        alert("Starting the personal quiz!");
+
     });
 });
