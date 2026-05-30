@@ -67,17 +67,6 @@
         <section class="row reveal align-items-center mb-5">
             <div class="col-md-7">
                 <button id="quiz-btn">Start Personal Quiz</button>
-                    <script type="py">
-                        from pyweb import pydom
-
-                        def run_quiz(event):
-                            # Your quiz logic goes here
-                            print("Quiz started!")
-                            pydom["#quiz-btn"][0].html = "Quiz is running..."
-
-                        # Bind the Python function to the HTML button click
-                        pydom["#quiz-btn"].on("click", run_quiz)
-                    </script>
             </div>
             <div class="col-md-5">
                 <div class="img-box">
