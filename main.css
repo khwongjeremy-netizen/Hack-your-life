@@ -1,0 +1,84 @@
+
+body {
+    background-color: #FDFBF7; /* Light Pink */
+    color: #463832; /* Dark Brown */
+    font-family: 'Segoe UI', Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+/* Navbar Centering */
+.navbar {
+    background-color: #FDFBF7 !important;
+    padding: 1rem 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #1A1A1A !important;
+}
+
+.nav-link {
+    color: #1A1A1A !important;
+    margin-left: 15px;
+}
+
+.nav-link.active {
+    border-bottom: 2px solid #1A1A1A;
+}
+
+/* Parallax Header */
+.hero-parallax {
+    height: 60vh;
+    background-color: #FDFBF7;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+/* Centered content fix */
+.section-title {
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    left: 0; bottom: 0;
+    width: 50px; height: 3px;
+    background-color: #463832;
+}
+
+/* Scroll Reveal */
+.reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease-out;
+}
+
+.reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Fancy Frame */
+.img-box {
+    background-color: #FDFBF7;
+    padding: 12px;
+    border: 1px solid #463832;
+    transition: transform 0.3s ease;
+}
+
+.img-box:hover {
+    transform: scale(1.02);
+}
+
+footer {
+    background-color: #463832;
+    color: white;
+}
